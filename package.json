@@ -1,3 +1,7 @@
 {
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@google-cloud/vertexai": "^1.10.0",
+    "@google/genai": "^1.5.1"
+  }
 }
