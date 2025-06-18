@@ -57,7 +57,7 @@ Before running the application, ensure you have the following prerequisites:
 
 ### Step 1: Upload a video
 
-The web application allows users to upload a video file in `.mp4` format. You can upload the video you want to analyze. For example, the video `Snapchat-1830037911.mp4` is already present in your project directory:
+The web application allows users to upload a video file in `.mp4` format. You can upload the video you want to analyze. For example, the video `Snapchat-1830037911.mp4` is already present in your project directory.
 
 ### Step 2: Pose a query
 
@@ -76,3 +76,9 @@ The uploaded video is converted into a base64-encoded string, which is sent to G
 The application will display the AI-generated summary or response directly on the web interface. This will allow the user to easily gain insights from the video.
 
 ---
+
+## References
+
+- [Vertex AI Sample: Video Q&A](https://cloud.google.com/vertex-ai/generative-ai/docs/prompt-gallery/samples/video_video_q_and_a_89)  
+- [Vertex AI Quickstart: Multimodal with Gemini](https://cloud.google.com/vertex-ai/generative-ai/docs/start/quickstarts/quickstart-multimodal#gemini-text-only-samples-python_genai_sdk)
+

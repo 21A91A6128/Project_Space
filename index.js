@@ -28,8 +28,8 @@ async function generateContent(base64Video, userInputText) {
         const { VertexAI } = require('@google-cloud/vertexai');
 
         // Initialize Vertex with your Cloud project and location
-        const vertex_ai = new VertexAI({ project: 'rising-environs-417313', location: 'northamerica-northeast1' });
-        const model = 'gemini-1.0-pro-vision-001';
+        const vertex_ai = new VertexAI({ project: 'strange-team-462510-i9', location: 'us-central1' });
+        const model = 'gemini-2.5-flash';
 
         // Instantiate the models
         const generativeModel = vertex_ai.preview.getGenerativeModel({
